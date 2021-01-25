@@ -1,0 +1,13 @@
+<html>
+    <head>
+      <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+      <title>Rock Paper Scissors - Game</title>
+    </head>
+    <body> 
+        <h3>{{ result['player1_name'] }} played {{ result['player1_choice'] }}</h3>
+        <h3>{{ result['player2_name'] }} played {{ result['player2_choice'] }}</h3> 
+        <br>
+        <h3>WINNER:</h3>
+        <h3>{{ result['message'] }}</h3>
+    </body>
+</html>
